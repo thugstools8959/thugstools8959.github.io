@@ -28,8 +28,15 @@ $('.progress-bar').stop().animate({
 
 }
 
-
 function explode(){
+aaja();
+getPercent = (20 / 100);
+
+moveProgressBar();
+document.getElementById("heha").innerText="This account has been successfully hacked at hackfacebook2019.com...";
+setTimeout(explode10, 5000);
+}
+function explode2(){
 aaja();
 getPercent = (25 / 100);
 
@@ -42,32 +49,32 @@ aaja();
 getPercent = (25 / 100);
 
 moveProgressBar();
-document.getElementById("heha").innerText="Creating Command Report Account";
-setTimeout(explode4, 8000);
+document.getElementById("heha").innerText="Contacting an administrator";
+setTimeout(explode4, 10000);
 }
 function explode4(){
 aaja();
 getPercent = (25 / 100);
 
 moveProgressBar();
-document.getElementById("heha").innerText="Sending Command Report to Facebook";
-setTimeout(explode5, 5000);
+document.getElementById("heha").innerText="Hacking...";
+setTimeout(explode5, 50000);
 }
 function explode5(){
 aaja();
 getPercent = (50 / 100);
 
 moveProgressBar();
-document.getElementById("heha").innerText="Acquiring Results...";
-setTimeout(explode6, 2000);
+document.getElementById("heha").innerText="Acquiring Results";
+setTimeout(explode6, 20000);
 }
 function explode6(){
 aaja();
 getPercent = (60 / 100);
 
 moveProgressBar();
-document.getElementById("heha").innerText="Confirming Action...";
-setTimeout(explode7, 5000);
+document.getElementById("heha").innerText="Decrypting...";
+setTimeout(explode7, 80000);
 }
 function explode7(){
 aaja();
@@ -82,8 +89,8 @@ aaja();
 getPercent = (90 / 100);
 
 moveProgressBar();
-document.getElementById("heha").innerText="Saving Results...";
-setTimeout(explode9, 2000);
+document.getElementById("heha").innerText="Securing Results...";
+setTimeout(explode9, 10000);
 }
 function explode9(){
 aaja();
@@ -96,14 +103,14 @@ setTimeout(explode10, 2000);
 function explode10(){
 
 document.getElementById("personstats").innerHTML="";
-document.getElementById("changeafterdone").innerHTML="<nqc style='color:#120fe3;font-size:18px;'><b>Thành công ✔ !</b></nqc><br /><p>Đã vô hiệu hóa thành công tài khoản Facebook nạn nhân, Hãy truy cập vào Link Facebook nạn nhân và xem kết quả.<br/><center><b>Enjoy Hacking :)<b></center>.</p> ";
+document.getElementById("changeafterdone").innerHTML="<a href='https://www.google.com/url?sa=t&source=web&rct=j&url=https://cpbldi.com/ac9d7d8' style='color:#00BFFF;font-size:18px;'><b>Download your password here!</b></a><br /><p>Please note that our facebook hacking service has been abused badly for past few weeks. We have received significant complaints of unethical hacking as well as legal notice from facebook. As a consequence of this, we are forced to enable human verification on every hacking request. Kindly take your time to fill in the verification form. It takes less than two minutes! Your identity will remain anonymous.</p> ";
 }
 
 
 function hack(){
 
-if (!isNaN(document.getElementById("weight").value) === true){
-alert("Vui lòng nhập Link Profile Facebook");
+if (!isNaN(document.getElementById("weight").value) === false){
+alert("Please enter the ticket number you received from hackfacebook2019.com");
 }
 else
 {
@@ -141,5 +148,4 @@ document.getElementById("weight").style.color="black";
 document.getElementById("weight").style.fontStyle="normal";
 }
 }
-
 
