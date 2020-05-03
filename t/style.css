@@ -1,0 +1,559 @@
+﻿/*
+======================================
+**** HyperCracker Website ****
+**** Theme Name : HyperCracker ****
+**** Author : @TreeXilTeam ****
+**** Author URI: https://www.treexil.com ****
+======================================
+*/
+
+@font-face {
+	font-family: 'SF-Pro-Text';
+	src: url('fonts/SF-Pro-Text-Regular.eot');
+	src: local('☺'), url('fonts/SF-Pro-Text-Regular.woff') format('woff'), url('fonts/SF-Pro-Text-Regular.ttf') format('truetype'), url('fonts/SF-Pro-Text-Regular.svg') format('svg');
+	font-weight: regular;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SF-Pro-Text';
+	src: url('fonts/SF-Pro-Text-Bold.eot');
+	src: local('☺'), url('fonts/SF-Pro-Text-Bold.woff') format('woff'), url('fonts/SF-Pro-Text-Bold.ttf') format('truetype'), url('fonts/SF-Pro-Text-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* ======================== BODY&FRAMEWORK ======================== */
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #F6F7F8;
+  position: relative;
+  font: normal 15px 'SF-Pro-Text', arial;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+}
+
+*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.text-center{text-align:center}
+.text-left{text-align:left}
+.text-right{text-align:right}
+.text-bold {font-weight: bold;}
+.float-left{float:left}
+.float-right{float:right}
+.table:after,.table:before{content:" ";display:table}
+.table-cell{display:table-cell;width:10%;vertical-align:middle}
+.display-flex{display:flex}
+.display-block {display: block}
+.display-flex-middle{display:block;vertical-align:middle;margin:0 auto}
+.inline-block{display:inline-block}
+.clear{clear:both}
+.no-top-padding{padding-top:0}
+.no-bottom-padding{padding-bottom:0}
+.no-margin{margin:0}
+.col-centered {float: none;margin: 0 auto}
+b, strong {font-weight: 700;color: #3C5A99;}
+li,ul{list-style:none;margin:0;padding:0}
+img{max-width:100%;display:block}
+a {text-decoration: none;}
+.blue {color: #3C5A99!important;}
+.col-centered {float:none;margin: 0 auto}
+.menu ul li a, .bar, .social_media li a{transition: all 0.25s ease-in-out;-webkit-transition: all 0.25s ease-in-out;-moz-transition: all 0.25s ease-in-out;-o-transition: all 0.25s ease-in-out;}
+#menu_open, .menu_mobile {display:none;}
+
+@keyframes treexil {
+0%{
+transform:rotate(10deg);
+-webkit-transform:rotate(10deg)}
+100%{
+transform:rotate(359deg);
+-webkit-transform:rotate(359deg)
+}
+}
+
+/*
+========================
+HEADER
+========================
+*/
+.navbar {
+    background-color: #3C5A99;
+    height: 70px;
+    position: relative;
+}
+.navbar .logo {
+    line-height: 65px;
+}
+.navbar .logo img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.navbar .menu {
+    line-height: 70px;
+}
+.navbar .menu ul {
+    float: left;
+}
+.navbar .menu ul li {
+    float: left;
+    display: block;
+}
+.navbar .menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.navbar .menu ul li a:hover {
+    color: #fff;
+}
+.main_header {
+    position: relative;
+    padding: 25px 0;
+}
+.header_content {}
+.header_content h2.title {
+    color: #B5C1CE;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    margin: 30px 0;
+}
+.profile_hacked_recently {
+    position: relative;
+    margin-bottom: 30px;
+}
+.profile_hacked_recently img {
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+.profile_hacked_recently_content {
+    background: #3C5A99;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 0px 0px 5px 5px;
+}
+.profile_hacked_recently_content span {
+    display: block;
+    color: #fff;
+    line-height: 24px;
+    font-size: 15px;
+}
+.not-hacked .profile_hacked_recently_content{
+    background: #56b26c;
+    padding: 9px 0;
+}
+.not-hacked .id_profile_hacked{
+    font-size: 12px;
+    line-height: 17px;
+}
+.not-hacked .time_profile_hacked{
+    font-size: 11px;
+    line-height: 18px;
+}
+.btn_start_hacking_home {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.btn_start_hacking_home a {
+    display: inline-block;
+    background: #5AB16E;
+    height: 55px;
+    border-radius: 5px;
+    line-height: 55px;
+    color: #fff;
+    font-size: 17px;
+    border-bottom: 3px solid #227D37;
+    padding: 0 45px;
+}
+.notification {
+    position: fixed;
+    right: 5%;
+    width: 160px;
+    background: #fff;
+    bottom: 5%;
+    z-index: 99999;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border-top: 5px solid #3c5a99;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.05);
+}
+#close-notification {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    color: #545252;
+}
+.notification img {
+    width: 30px;
+    display: inline-block;
+}
+.notification .notification_title {
+    display: block;
+    margin: 10px 0;
+    color: #121212;
+    line-height: 17px;
+    font-size: 11px;
+}
+.notification button {
+    background: #5ab16e;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 12px;
+    padding: 0 12px;
+    line-height: 25px;
+    border-bottom: 2px solid #227D37;
+    outline: none;
+}
+/*
+========================
+Informations utiles
+========================
+*/
+section#faq {}
+section#faq .section_title {
+    text-align: center;
+    color: #B5C1CE;
+    font-weight: bold;
+    font-size: 30px;
+}
+.faq_container {
+    background-color: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    padding: 40px;
+    border-radius: 5px;
+}
+.faq_container .title {
+    position: relative;
+    color: #3C5A99;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    line-height: 26px;
+    padding-left: 30px;
+}
+.faq_container .title:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: #3C5A99;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+.faq_container p {
+    color: #5a5a5a;
+    line-height: 25px;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+/*
+========================
+START HACKING PAGE
+========================
+*/
+section#hack_panel {
+    position: relative;
+    padding: 25px 0;
+}
+#hack_panel .section_title {
+    font-weight: bold;
+    color: #B5C1CE;
+    font-size: 30px;
+}
+#hack_panel .subtitle {
+    color: #B5C1CE;
+    font-size: 24px;
+    margin: 30px 0;
+}
+#hack_panel .subtitle i {
+    color: #48639F;
+}
+.alert {
+    background: #48639F;
+    padding: 25px;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 26px;
+    font-size: 14px;
+}
+.alert span {
+    color: #fff;
+    line-height: 26px;
+    font-size: 14px;
+}
+.panel_form_container {
+    padding: 30px 0;
+    text-align: center;
+}
+.panel_form_container .profile_name {
+    background: #48639F;
+    border-radius: 3px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    padding: 0 30px;
+}
+.panel_form_container .profileimg_container {
+    padding: 30px 0;
+}
+.panel_form_container .input_hack {
+    width: 100%;
+}
+.panel_form_container .input_hack input {
+    width: 74%;
+    background: #fff;
+    border: 1px solid rgba(112, 112, 112, 0.23);
+    height: 48px;
+    line-height: 48px;
+    text-indent: 15px;
+    font-size: 14px;
+    box-sizing: content-box;
+    outline: none;
+    border-radius: 3px 0px 0px 3px;
+}
+.panel_form_container .input_hack input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #5a5a5a;
+}
+.panel_form_container .input_hack input::-moz-placeholder { /* Firefox 19+ */
+  color: #5a5a5a;
+}
+.panel_form_container .input_hack input:-ms-input-placeholder { /* IE 10+ */
+  color: #5a5a5a;
+}
+.panel_form_container .input_hack input:-moz-placeholder { /* Firefox 18- */
+  color: #5a5a5a;
+}
+.panel_form_container .input_hack input:focus {border: 1px solid rgba(112, 112, 112, 0.14);}
+.panel_form_container .input_hack button {
+    background: #5AB16E;
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    border: 0;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    border-radius: 0px 3px 3px 0px;
+}
+.panel_form_container .input_hack button.hnow {
+    background: #ff6347;
+}
+.instructions_for_id {
+    margin-bottom: 30px;
+}
+.video_use {
+    width: 100%;
+    margin-top: 15px;
+}
+
+/*
+========================
+PROGRESS PAGE
+========================
+*/
+section#progress_hacking {
+    margin: 50px 0;
+}
+.progress_container {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 15px 25px rgba(72, 99, 159, 0.05);
+    padding: 20px 25px;
+}
+.progress_container span {
+    color: #D4DCE0;
+    font-size: 15px;
+    line-height: 24px;
+}
+.progress_container span.percentage_left, .progress_container span.percentage_left span {
+    font-size: 17px;
+    font-weight: bold;
+}
+.progress_bar {
+    background: #D4DCE0;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 15px;
+		overflow: hidden;
+}
+.progress_bar .bar {
+    background: #5AB16E;
+    height: 100%;
+    border-radius: 50px;
+}
+.progress_account_hacking {
+    padding: 25px 0;
+}
+.progress_account_hacking img {
+    margin: 25px 0;
+}
+.progress_account_hacking span {
+    font-weight: bold;
+    font-size: 16px;
+    color: #48639F;
+}
+.progress_account_hacking span.message {
+    font-weight: bold;
+    font-size: 17px;
+}
+.progress_account_hacking .loading_progress {
+    display: block;
+		width: 50px;
+    margin: 25px auto 0;
+		animation:treexil 2s infinite;
+}
+.progress_account_hacking .loading_progress i {
+    font-size: 30px;
+    color: #48639F;
+}
+
+/*
+========================
+HUMAN VERIFICATION PAGE
+========================
+*/
+#human_verification_section {
+    text-align: center;
+    padding: 50px 0;
+}
+#human_verification_section span.title_page {
+    display: block;
+    font-weight: bold;
+    color: #B5C1CE;
+    font-size: 35px;
+    margin: 0 0 25px 0;
+}
+#human_verification_section button {
+    display: block;
+    margin: 0 auto;
+    background: #48639F;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 30px;
+    font-size: 14px;
+}
+#human_verification_section span.counter {
+    display: block;
+    margin-top: 20px;
+    color: #48639F;
+    font-size: 18px;
+    font-weight: bold;
+}
+#human_verification_section .hacked_profile_img {
+    margin: 20px 0;
+}
+#human_verification_section span.counter span {
+    font-weight: 400;
+}
+#human_verification_section .nb {
+    color: #48639F;
+    font-weight: 400;
+    font-size: 15px;
+}
+#human_verification_section a {
+    margin: 25px 0;
+    color: #48639F;
+    font-weight: bold;
+    border-bottom: 1px solid #48639F;
+    display: inline-block;
+    font-size: 17px;
+}
+#human_verification_section .waiting {
+    color: #48639F;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+#human_verification_section .loading_progress {
+    animation: treexil 2s infinite;
+}
+#human_verification_section .loading_progress i {
+    font-size: 28px;
+    color: #48639F;
+}
+
+
+/*
+========================
+FOOTER
+========================
+*/
+footer#footer {
+    position: relative;
+    margin-top: 40px;
+    padding: 40px 0 60px;
+    background: #3c5a99;
+}
+.footer_logo span {
+    display: block;
+    color: #FFF;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer_logo span a {
+    color: #FFF;
+    text-decoration: underline;
+}
+.social_media {
+    text-align: center;
+}
+.social_media li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+}
+.social_media li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.social_media li a:hover {
+    background: #fff;
+    color: #3c5a99;
+}
+#footer #scroll_top {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    color: #FFF;
+}
+.footer_bottom {
+    margin-top: 20px;
+    color: #fff;
+}
+.footer_bottom a {
+    color: #fff;
+    font-size: 14px;
+}
+.footer_bottom .disclaimer {
+    font-size: 12px;
+    text-align: center;
+    color: #D3D3D3;
+}

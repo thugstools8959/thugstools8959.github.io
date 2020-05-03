@@ -1,0 +1,70 @@
+/*
+======================================
+**** HyperCracker Website ****
+**** Theme Name : HyperCracker ****
+**** Author : @TreeXilTeam ****
+**** Author URI: https://www.treexil.com ****
+======================================
+*/
+
+/*
+========================
+STATIC PAGE
+========================
+*/
+section#static_page_content_section {
+    padding: 40px 0;
+}
+#static_page_content_section .section_title {
+  text-align: center;
+  color: #B5C1CE;
+  font-weight: bold;
+  font-size: 30px;
+}
+.static_content_container {
+    background-color: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+    padding: 45px;
+    height: 500px;
+    overflow-y: scroll;
+}
+.static_content_container::-webkit-scrollbar-track {
+    padding: 2px 0;
+    background-color: #EFEFEF;
+    border-radius: 0px 5px 5px 0px;
+}
+.static_content_container::-webkit-scrollbar {
+    width: 8px;
+}
+.static_content_container::-webkit-scrollbar-thumb {
+    border-radius: 60px;
+    background-color: #48639F;
+}
+.static_content_container .title {
+    position: relative;
+    color: #3C5A99;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0;
+    line-height: 26px;
+    padding-left: 30px;
+}
+.static_content_container .title:before {
+    content: '';
+    width: 13px;
+    height: 13px;
+    background: #3C5A99;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+.static_content_container p {
+    color: #5a5a5a;
+    line-height: 25px;
+    font-weight: normal;
+    font-size: 13px;
+    padding-left: 30px;
+}
