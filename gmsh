@@ -1,0 +1,242 @@
+<html lang="en"><head>
+<title>GMSH App</title>
+
+<meta charset="utf-8">
+<!-- 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+ -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	
+	<meta property="og:url" content="GIẢI MÃ SỐ HỌC">
+	
+<meta property="og:title" content="GIẢI MÃ SỐ HỌC">
+<meta property="og:description" content="TẬP ĐOÀN GIẢI MÃ SỐ HỌC">
+<meta property="og:image" content="http://teraapp.net/file/get?fileName=TemplateDataIcon/2020/11/94e7b3af-ef71-4ca5-9484-cbd764b186c1.png">
+	<meta property="og:site_name" content=" ">
+<meta property="og:image" content="https://teraapp.net:8001/logo-tera-fb.png">
+
+<link rel="shortcut icon" href="../landing/teraapp.net/images/favicon.ico">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="/template/blue/css/base.css;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF">
+<link rel="stylesheet" href="/template/blue/css/media.queries.css;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF">
+<link rel="stylesheet" href="/template/blue/css/tipsy.css;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF">
+<!-- <link rel="stylesheet" -->
+
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Quicksand:400,700,300">
+
+<!-- Javascripts -->
+<script src="https://connect.facebook.net/en_US/all.js?hash=1b09f47ca02ce15be7219b1a8ad72e4e&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/all.js"></script><script src="/template/blue/js/jquery-1.7.1.min.js;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF"></script>
+<script src="/template/blue/js/html5shiv.js;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF"></script>
+<script src="/template/blue/js/jquery.tipsy.js;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF"></script>
+<script <script="" src="/template/blue/js/jquery.touchSwipe.js;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF"></script>
+<script src="/template/blue/js/jquery.mobilemenu.js;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF"></script>
+<script src="/template/blue/js/jquery.infieldlabel.js;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF"></script>
+<script src="/template/blue/js/jquery.echoslider.js;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF"></script>
+<script src="/template/blue/js/fluidapp.js;jsessionid=EEDA2C9B13670C7DE45DE20C402F8BFF"></script>
+
+
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Shared on MafiaShare.net  -->
+<!-- Shared on MafiaShare.net  -->
+<style type="text/css" data-fbcssmodules="css:fb.css.basecss:fb.css.dialog css:fb.css.iframewidget">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style></head>
+<body>
+	<!-- Start Wrapper -->
+	<div id="page_wrapper">
+
+		<!-- Start Header -->
+		
+		<!-- End Header -->
+		
+		
+			<section class="container" style="padding:5px">
+			<div>
+				<h1 style="color: black">
+					Tải ứng dụng
+					GIAI MA SO HOC</h1>
+			</div>
+			<!-- Start App Info -->
+			<div id="app_info">
+				<div class="about_us content_box">
+					<div class="one_half">
+						
+							<img src="https://teraapp.net/file/get?fileName=TemplateDataIcon/2020/11/94e7b3af-ef71-4ca5-9484-cbd764b186c1.png&amp;v=1000" alt="Talaha" style="width: 175px; height: 175px">
+						
+						
+					</div>
+					<div class="one_half column_last" style="margin-top: 20px">
+						<h1>
+							<b>GIAI MA SO HOC</b>
+						</h1>
+						
+					</div>
+				</div>
+				<div class="buttons" style="text-align: center;">
+					
+						
+						
+						
+						<a href="itms-services://?action=download-manifest&amp;url=itms-services://?action=download-manifest&amp;url=https://teraapp.net:10000/Upload/43818/Build/manifest.plist" class="large_button" id="apple"> <span class="icon"></span> <em>Download now
+									for</em> iPhone
+						</a>
+					
+					
+						
+						
+							
+						
+					
+				</div>
+
+				<div class="price centered">
+					<!-- Alignments options: right_align, left_align, centered -->
+					<p>Tải ứng dụng ngay - Miễn phí!</p>
+				</div>
+				<p>TẬP ĐOÀN GIẢI MÃ SỐ HỌC</p>
+
+
+			</div>
+			<!-- End App Info --> <!-- Start Pages -->
+			<div id="pages" style="height: 570px;">
+				<div class="top_shadow"></div>
+
+				<!-- Start Home -->
+				<div id="home" class="page"></div>
+				<!-- End Home -->
+
+				<!-- Start Team -->
+
+				<!-- End Team -->
+
+				<!-- Start Features -->
+
+				<!-- End Features -->
+
+				<!-- Start Screenshots -->
+
+				<!-- End Screenshots -->
+
+				<!-- Start Updates -->
+				<div id="updates" class="page current" style="display: block;">
+					<h1>Cập nhật</h1>
+					<div class="releases">
+						<article class="release">
+						<h2>Version
+							1.13</h2>
+						<span class="date">Released on &nbsp;&nbsp;&nbsp;&nbsp;Apr 1, 2021</span>
+						<ul>
+							<li class="new"><span><b>New</b></span>
+								Cập nhập phiên bản mới tương thích tốt hơn</li>
+							<li class="fix"><span><b>Fix</b></span>
+								Sửa tính năng gửi thông báo</li>
+							<li class="new"><span><b>New</b></span>
+								Nhiều cập nhập về giao diện trong phiên bản này</li>
+							<li class="fix"><span><b>fix</b></span>
+								Vài lỗi về giao diện và  tối ưu tốc độ</li>
+						</ul>
+						</article>
+						<!-- Start Guide -->
+						<article>
+							<h1>Hướng dẫn</h1>
+			
+							<p><b>Vì đây chưa phải là bản chính thức trên AppStore và CH Play nên khi tải bạn lưu ý:</b></p>
+							
+							
+								<p>- Với IOS, khi tải về, anh/chị vào phần "Cài đặt chung" &gt; "Quản lý cấu hình và thiết bị" &gt; Bấm vào VIHAT TECHNOLOGY &gt; chọn Tin Cậy.</p>
+							
+							
+							
+							<p>- Với Android, trước khi tải về, anh/chị vào Cài đặt &gt; Bảo mật &gt; check vào dòng "Không rõ nguồn gốc" để cài đặt những ứng dụng ngoài CH PLay.</p>
+							<p><b>*** Trong quá trình cài đặt, nếu có Thông báo "Bị chặn bởi Play Protect" vui lòng chọn "Vẫn cài đặt" để tiếp tục cài đặt ứng dụng</b></p>
+							<br>
+							<p>Khi nào bạn đã hài lòng với ứng dụng, TERAAPP.NET sẽ đăng chính thức ứng dụng lên AppStore và CH Play để khách hàng của bạn tải về như ứng dụng bình thường như app Facebook hoặc Zalo</p>
+						</article>
+						<!-- End Guide -->
+					</div>
+				</div>
+				<!-- End Updates -->
+
+				<div class="clear"></div>
+			</div></section>
+		
+		<!-- Start Footer -->
+		
+		<!-- End Footer -->
+
+	</div>
+	<!-- End Wrapper -->
+	<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+	<script>
+	
+	var OS= getMobileOperatingSystem();
+	if('' != null && '' != '') {
+		if(OS == "Android"){
+			var link = ''
+			window.location.replace(link);
+		}
+	}
+	if('' != null && '' != '') {
+		if(OS == "iOS"){
+			var link = ''
+			window.location.replace(link);
+		}
+	}
+	
+	function getMobileOperatingSystem() {
+		  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+		      // Windows Phone must come first because its UA also contains "Android"
+		    if (/windows phone/i.test(userAgent)) {
+		        return "Windows Phone";
+		    }
+
+		    if (/android/i.test(userAgent)) {
+		        return "Android";
+		    }
+
+		    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+		    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+		        return "iOS";
+		    }
+
+		    return "unknown";
+		}
+	
+	$(document).ready(function() {
+		
+		
+	});
+	window.fbAsyncInit = function(){
+		FB.init({
+		    appId: '130883283768945', status: true, cookie: true, xfbml: true }); 
+		};
+		(function(d, debug){var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+		    if(d.getElementById(id)) {return;}
+		    js = d.createElement('script'); js.id = id; 
+		    js.async = true;js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+		    ref.parentNode.insertBefore(js, ref);}(document, /*debug*/ false));
+		function postToFeed(title, desc, url, image){
+		var obj = {method: 'feed',link: url, picture: image,name: title,description: desc};
+		function callback(response){}
+		FB.ui(obj, callback);
+		}
+		
+		$('.btnShare').click(function(){
+			elem = $(this);
+			postToFeed(elem.data('title'), elem.data('desc'), elem.prop('href'), elem.data('image'));
+
+			return false;
+			});
+	</script>
+
+</body></html>
