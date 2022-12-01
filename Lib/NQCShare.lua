@@ -2089,7 +2089,7 @@ game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
 game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
 end)
 --------------------------------------------------------------------
-local RenUi = library:AddWindow("TUPER HUB",Enum.KeyCode.RightControl)
+local RenUi = library:AddWindow("NQC SHARE",Enum.KeyCode.RightControl)
 --------------------------------------------------------------------
 local Main = RenUi:AddTab("Menu Farm","6026568198")
 local Combat = RenUi:AddTab("Player","7251993295")
@@ -2100,7 +2100,7 @@ local DevilFruit = RenUi:AddTab("Devil Fruit","7044233235")
 local Shop = RenUi:AddTab("Shop","6031265976")
 local Misc = RenUi:AddTab("Miscellaneous","6034509993")
 --------------------------------------------------------------------
-Main:AddSeperator("à¸¢à¸´à¸™à¸”à¸µà¸•à¹‰à¸­à¸™à¸£à¸±à¸šà¸ªà¸¹à¹ˆTUPERHUBà¸„à¸™à¸—à¸³à¸ªà¸„à¸£à¸´à¸›à¸•à¹Œà¹€à¸›à¹‡à¸™à¸„à¸™à¹„à¸—à¸¢à¸™à¸°à¸„à¸£à¸±à¸š")
+Main:AddSeperator("Đừng quên ấn Đăng Ký kênh và Tích vào chuông để không bỏ lỡ các Video về Hack Roblox mới nhất nhé :)")
 Main:AddSeperator("Settings Farm")
 
 Time = Main:AddLabel("Server Time")
